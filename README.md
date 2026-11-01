@@ -6,6 +6,7 @@ Bloknotas: `ResNet18_CIFAR10_FashionMNIST.ipynb`.
 
 [Atidaryti Google Colab](https://colab.research.google.com/drive/12k69aJ9cKVkqafPODgtR_zjz3A-EMWT7)
 · [Projekto aplankas Drive](https://drive.google.com/drive/folders/1v5qIk_-Pk_XCP1uHBU5zzZQZAIsOvwxv)
+· [GitHub](https://github.com/psych0navt/kursinis)
 
 Atidarykite bloknotą Google Colab, pasirinkite **T4 GPU** ir paleiskite
 **Runtime → Run all**. Pirmas langelis paprašys prijungti Google Drive.
