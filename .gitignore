@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+duomenys/
+cache/
+rezultatai/
+*.npz
+*.pth
+*.zip
+.env
