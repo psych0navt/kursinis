@@ -1,0 +1,15 @@
+{
+  "Modelis": "ResNet18",
+  "Duomenų rinkinys": "CIFAR-10",
+  "Accuracy": 0.9545,
+  "Precision (macro)": 0.9547275385253402,
+  "Recall (macro)": 0.9545000000000001,
+  "F1 (macro)": 0.954401719445988,
+  "Testo nuostolis": 0.15931703877449035,
+  "Epochų sk.": 13,
+  "Mokymo laikas (min)": 13.489382813266669,
+  "Inferencija paketu (ms/vaizdui)": 0.5049377567000193,
+  "Inferencija, 1 vaizdas (ms)": 4.140260449999005,
+  "Parametrai (mln.)": 11.181642,
+  "Modelio dydis (MB)": 42.73005199432373
+}

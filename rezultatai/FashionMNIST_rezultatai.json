@@ -1,0 +1,15 @@
+{
+  "Modelis": "ResNet18",
+  "Duomenų rinkinys": "FashionMNIST",
+  "Accuracy": 0.9425,
+  "Precision (macro)": 0.9435590697702564,
+  "Recall (macro)": 0.9425000000000001,
+  "F1 (macro)": 0.9428182998246832,
+  "Testo nuostolis": 0.1709607719182968,
+  "Epochų sk.": 13,
+  "Mokymo laikas (min)": 16.033621366883335,
+  "Inferencija paketu (ms/vaizdui)": 0.49393684860001486,
+  "Inferencija, 1 vaizdas (ms)": 4.253254380000726,
+  "Parametrai (mln.)": 11.181642,
+  "Modelio dydis (MB)": 42.73054027557373
+}

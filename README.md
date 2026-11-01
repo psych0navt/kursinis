@@ -29,7 +29,8 @@ MyDrive/kursinis/
 
 Duomenys atsisiunčiami pirmo paleidimo metu. Kitose sesijose įkeliamos Drive
 išsaugotos NumPy kopijos. Rezultatai sukuriami vykdant eksperimentus ir
-iš karto rašomi į Drive. Į GitHub įkeliamas kodas ir dokumentacija.
+iš karto rašomi į Drive. Į GitHub įkeliamas kodas, dokumentacija ir
+eksperimentų rezultatai.
 
 Naudojama 10 % validavimo dalis, `SEED=42`, 224×224 įvestis, paketai po 64,
 3 epochos klasifikavimo galvai ir iki 10 epochų visam tinklui.
@@ -38,5 +39,11 @@ mažinamas pagal validavimo nuostolį. Hugging Face vaizdų eilės tvarka gali
 skirtis nuo kitų CIFAR-10 platinimo formatų; faktiniai skaidymo indeksai
 išsaugomi Drive.
 
-Bloknotas paruoštas vykdymui Colab. Išmokytų modelių ir išmatuotų metrikų
-šiame kode nėra; jie sukuriami po mokymo.
+2026-11-01 atliktų eksperimentų rezultatai nukopijuoti iš Drive į
+[`rezultatai/`](rezultatai/): grafikai, mokymo istorija, klasifikavimo ataskaitos,
+JSON metrikos, bendra suvestinė ir abiejų modelių `.pth` svoriai.
+Bloknote išsaugotos vykdymo išvestys.
+
+Visa rezultatų kopija lokaliai: `C:\Users\V\kursinis\rezultatai`.
+Papildomas `ResNet18_rezultatai.zip` archyvas saugomas lokaliai ir Drive;
+GitHub saugomi išarchyvuoti failai.
