@@ -1,0 +1,23 @@
+<!doctype html><html lang="lt"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bendras modelių palyginimas</title><style>
+body{font:16px/1.6 system-ui,sans-serif;color:#182230;background:#f4f6f8;margin:0}
+main{max-width:1200px;margin:auto;padding:32px} h1{font-size:34px;line-height:1.2}
+section{background:white;padding:24px;margin:24px 0;border-radius:12px}
+img{width:100%;height:auto;margin-top:16px} table{width:100%;border-collapse:collapse}
+th,td{text-align:left;border-bottom:1px solid #e4e7ec;padding:10px}
+a{color:#245f9e} .note{color:#475467} h2{margin-top:0}</style>
+<main><h1>Keturi modeliai · du duomenų rinkiniai</h1>
+<p>EfficientNet-B0, ResNet18, VGG16 ir MobileNetV2 rezultatai vienoje ataskaitoje.</p>
+<p><a href="bendras_palyginimas.pdf">Visi grafikai viename PDF</a></p>
+<section><h2>Bendra suvestinė</h2><p><a href="bendra_suvestine.csv">CSV</a> ·
+<a href="bendra_suvestine.json">JSON</a></p><table><thead><tr>
+<th>Modelis</th><th>Duomenų rinkinys</th><th>Accuracy</th><th>F1 (macro)</th><th>Mokymo laikas (min)</th></tr></thead><tbody><tr><td>EfficientNet-B0</td><td>CIFAR-10</td><td>96.97 %</td><td>96.97 %</td><td>84.28</td></tr><tr><td>ResNet18</td><td>CIFAR-10</td><td>95.45 %</td><td>95.44 %</td><td>13.49</td></tr><tr><td>VGG16</td><td>CIFAR-10</td><td>94.99 %</td><td>94.99 %</td><td>122.15</td></tr><tr><td>MobileNetV2</td><td>CIFAR-10</td><td>94.15 %</td><td>94.14 %</td><td>64.64</td></tr><tr><td>EfficientNet-B0</td><td>Fashion-MNIST</td><td>94.85 %</td><td>94.86 %</td><td>94.39</td></tr><tr><td>ResNet18</td><td>Fashion-MNIST</td><td>94.25 %</td><td>94.28 %</td><td>16.03</td></tr><tr><td>VGG16</td><td>Fashion-MNIST</td><td>93.87 %</td><td>93.85 %</td><td>155.50</td></tr><tr><td>MobileNetV2</td><td>Fashion-MNIST</td><td>93.24 %</td><td>93.34 %</td><td>77.23</td></tr></tbody></table></section>
+<section class="note"><h2>Palyginimo ribos</h2>
+<p>Pateiktuose kursiokų failuose yra tik galutinės suvestinės. Nėra jų epochų istorijos,
+klasių ataskaitų, tikrųjų ir prognozuotų žymių ar skaitinių klaidų matricų.
+Todėl bendri mokymo kreivių, F1 pagal klases ir klaidų matricų grafikai nesudaryti.
+Rodomos metrikų matricos yra modelių ir metrikų lentelės.</p>
+<p>GPU, bibliotekos ir laiko matavimo sąlygos nesuvienodintos. VGG16 šaltinyje nurodytas
+paketo dydis 16, EfficientNet-B0 — 64; MobileNetV2 suvestinėje paketo dydžio nėra.
+Failų dydžiai taip pat priklauso nuo saugojimo formato.</p></section><section><h2>Klasifikavimo kokybė</h2><p>Visų modelių tikslumas, macro precision, recall ir F1 abiem duomenų rinkiniams.</p><a href="01_kokybes_metrikos.pdf">PDF</a><img src="01_kokybes_metrikos.png" alt="Klasifikavimo kokybė"></section><section><h2>Bendros metrikų matricos</h2><p>Eilutėse — modeliai, stulpeliuose — metrikos. Reikšmės procentais.</p><a href="02_metriku_matricos.pdf">PDF</a><img src="02_metriku_matricos.png" alt="Bendros metrikų matricos"></section><section><h2>Mokymo trukmė ir testo nuostolis</h2><p>Pateiktų paleidimų matavimai. Aparatinė įranga ir bibliotekos nesuvienodintos.</p><a href="03_mokymas_ir_nuostolis.pdf">PDF</a><img src="03_mokymas_ir_nuostolis.png" alt="Mokymo trukmė ir testo nuostolis"></section><section><h2>Inferencijos trukmė</h2><p>Paketo ir vieno vaizdo matavimai rodomi atskirai bendroje figūroje; ašys logaritminės.</p><a href="04_inferencijos_trukme.pdf">PDF</a><img src="04_inferencijos_trukme.png" alt="Inferencijos trukmė"></section><section><h2>Modelių apimtis</h2><p>Parametrų skaičius ir pateiktų modelių failų dydžiai. Failų formatai gali skirtis.</p><a href="05_modeliu_apimtis.pdf">PDF</a><img src="05_modeliu_apimtis.png" alt="Modelių apimtis"></section><section><h2>Kokybė ir sąnaudos</h2><p>Tikslumas lyginamas su mokymo trukme ir inferencijos paketu trukme.</p><a href="06_kokybe_ir_sanaudos.pdf">PDF</a><img src="06_kokybe_ir_sanaudos.png" alt="Kokybė ir sąnaudos"></section></main></html>

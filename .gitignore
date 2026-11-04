@@ -3,6 +3,7 @@ __pycache__/
 .venv/
 duomenys/
 cache/
+/kursioku/
 *.npz
 *.pth
 !rezultatai/*.pth

@@ -2,6 +2,31 @@
 
 ResNet18 vaizdų klasifikavimas su CIFAR-10 ir Fashion-MNIST.
 
+Bendras ResNet18, EfficientNet-B0, MobileNetV2 ir VGG16 palyginimas:
+[`bendri_rezultatai/`](bendri_rezultatai/). Naršyklėje atidarykite
+[`ataskaita.html`](bendri_rezultatai/ataskaita.html); ten yra bendra suvestinė
+ir šešios visų modelių figūros. Grafikai pateikti PNG ir PDF formatais.
+Visi grafikai viename dokumente: [bendras PDF](bendri_rezultatai/bendras_palyginimas.pdf).
+
+![Bendros metrikų matricos](bendri_rezultatai/02_metriku_matricos.png)
+
+Kursiokų originalai laikomi `kursioku/`, šis aplankas įtrauktas į `.gitignore`.
+Visų aštuonių eksperimentų suvienodinti duomenys išsaugoti
+[`bendra_suvestine.csv`](bendri_rezultatai/bendra_suvestine.csv).
+Kursiokų šaltiniuose nėra mokymo istorijos, klasių metrikų ar skaitinių klaidų
+matricų, todėl šių bendrų grafikų sudaryti negalima. Palyginimui pateikiamos
+modelių ir metrikų matricos. Laiko matavimai priklauso nuo vykdymo sąlygų.
+
+Grafikų atkūrimas:
+
+```powershell
+python -m pip install -r requirements-grafikai.txt
+python apjungti_rezultatus.py --is-suvestines
+```
+
+Turint vietinius kursiokų originalus, suvestinė ir grafikai atnaujinami komanda
+`python apjungti_rezultatus.py`.
+
 Bloknotas: `ResNet18_CIFAR10_FashionMNIST.ipynb`.
 
 [Atidaryti Google Colab](https://colab.research.google.com/drive/12k69aJ9cKVkqafPODgtR_zjz3A-EMWT7)

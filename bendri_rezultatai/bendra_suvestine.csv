@@ -1,0 +1,9 @@
+﻿Modelis,Duomenų rinkinys,Accuracy,Precision (macro),Recall (macro),F1 (macro),Testo nuostolis,Epochų sk.,Mokymo laikas (min),Inferencija paketu (ms/vaizdui),"Inferencija, 1 vaizdas (ms)",Parametrai (mln.),Modelio dydis (MB),Fine-tuning,Batch size,Learning rate (head),Learning rate (fine),Šaltinio failas
+EfficientNet-B0,CIFAR-10,0.9697,0.9698,0.9697,0.9697,0.0971,13.0,84.28,2.57,280.84,4.06,47.14,Taip,64.0,0.001,0.0001,kursioku/efficientnet_b0_rezultatai.csv
+ResNet18,CIFAR-10,0.9545,0.9547,0.9545,0.9544,0.1593,13.0,13.4894,0.5049,4.1403,11.1816,42.7301,,,,,rezultatai/ResNet18_suvestine.csv
+VGG16,CIFAR-10,0.9498999714851379,0.9501243917982316,0.9499000000000001,0.9498910643032319,0.21877914667129517,13.0,122.15477552258334,4.372112190000007,28.06063224999889,14.719818,168.57206344604492,Visas pagrindas,16.0,0.001,1e-05,kursioku/vgg.txt
+MobileNetV2,CIFAR-10,0.9415,0.9428,0.9415,0.9414,0.2029,13.0,64.6438,1.7423,153.8926,2.2708,26.4079,,,,,kursioku/MobileNetV2_suvestine.csv
+EfficientNet-B0,Fashion-MNIST,0.9485,0.949,0.9485,0.9486,0.1559,13.0,94.39,2.38,295.38,4.06,47.14,Taip,64.0,0.001,0.0001,kursioku/efficientnet_b0_rezultatai.csv
+ResNet18,Fashion-MNIST,0.9425,0.9436,0.9425,0.9428,0.171,13.0,16.0336,0.4939,4.2533,11.1816,42.7305,,,,,rezultatai/ResNet18_suvestine.csv
+VGG16,Fashion-MNIST,0.9387000203132629,0.9389387282393369,0.9387000000000001,0.9385049604509931,0.1844138205051422,13.0,155.50244500638334,4.658046496599854,31.373404690002644,14.719818,168.57206344604492,Visas pagrindas,16.0,0.001,1e-05,kursioku/vgg.txt
+MobileNetV2,Fashion-MNIST,0.9324,0.9363,0.9324,0.9334,0.1993,13.0,77.2294,1.7664,152.9993,2.2708,26.4079,,,,,kursioku/MobileNetV2_suvestine.csv
