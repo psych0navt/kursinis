@@ -272,12 +272,7 @@ Failų dydžiai taip pat priklauso nuo saugojimo formato.</p></section>{cards}</
         'Keturi modeliai, du duomenų rinkiniai, aštuoni eksperimentai.\n\n'
         'Atidarykite `ataskaita.html` naršyklėje. Grafikai pateikti PNG ir PDF formatais.\n'
         'Visi šeši grafikai viename dokumente: `bendras_palyginimas.pdf`.\n'
-        'Skaitiniai duomenys: `bendra_suvestine.csv` ir `bendra_suvestine.json`.\n\n'
-        'Kursiokų šaltinių aplankas `kursioku/` neįtraukiamas į Git. '
-        'Suvienodintos jų rezultatų eilutės įtrauktos į bendrą suvestinę.\n\n'
-        'Klaidų matricoms ir bendroms mokymo kreivėms trūksta kitų modelių '
-        'skaitinių matricų / prognozių ir epochų istorijos. Laikai priklauso nuo '
-        'paleidimo sąlygų, modelio failo dydis — nuo išsaugojimo formato.\n', encoding='utf-8',
+        'Skaitiniai duomenys: `bendra_suvestine.csv` ir `bendra_suvestine.json`.\n\n', encoding='utf-8',
     )
 
 

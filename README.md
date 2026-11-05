@@ -10,23 +10,6 @@ Visi grafikai viename dokumente: [bendras PDF](bendri_rezultatai/bendras_palygin
 
 ![Bendros metrikų matricos](bendri_rezultatai/02_metriku_matricos.png)
 
-Kursiokų originalai laikomi `kursioku/`, šis aplankas įtrauktas į `.gitignore`.
-Visų aštuonių eksperimentų suvienodinti duomenys išsaugoti
-[`bendra_suvestine.csv`](bendri_rezultatai/bendra_suvestine.csv).
-Kursiokų šaltiniuose nėra mokymo istorijos, klasių metrikų ar skaitinių klaidų
-matricų, todėl šių bendrų grafikų sudaryti negalima. Palyginimui pateikiamos
-modelių ir metrikų matricos. Laiko matavimai priklauso nuo vykdymo sąlygų.
-
-Grafikų atkūrimas:
-
-```powershell
-python -m pip install -r requirements-grafikai.txt
-python apjungti_rezultatus.py --is-suvestines
-```
-
-Turint vietinius kursiokų originalus, suvestinė ir grafikai atnaujinami komanda
-`python apjungti_rezultatus.py`.
-
 Bloknotas: `ResNet18_CIFAR10_FashionMNIST.ipynb`.
 
 [Atidaryti Google Colab](https://colab.research.google.com/drive/12k69aJ9cKVkqafPODgtR_zjz3A-EMWT7)
@@ -63,12 +46,3 @@ Ankstyvasis stabdymas taikomas pagal validavimo tikslumą, mokymosi tempas
 mažinamas pagal validavimo nuostolį. Hugging Face vaizdų eilės tvarka gali
 skirtis nuo kitų CIFAR-10 platinimo formatų; faktiniai skaidymo indeksai
 išsaugomi Drive.
-
-2026-11-01 atliktų eksperimentų rezultatai nukopijuoti iš Drive į
-[`rezultatai/`](rezultatai/): grafikai, mokymo istorija, klasifikavimo ataskaitos,
-JSON metrikos, bendra suvestinė ir abiejų modelių `.pth` svoriai.
-Bloknote išsaugotos vykdymo išvestys.
-
-Visa rezultatų kopija lokaliai: `C:\Users\V\kursinis\rezultatai`.
-Papildomas `ResNet18_rezultatai.zip` archyvas saugomas lokaliai ir Drive;
-GitHub saugomi išarchyvuoti failai.
